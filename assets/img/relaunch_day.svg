@@ -1,40 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Design Conversion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <!-- Add header content like logo or nav if present -->
+        </header>
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+        <main class="content">
+            <img src="funky.png.webp" alt="Design Image">
+        </main>
 
-.container {
-    width: 80%;
-    max-width: 1024px;
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-.header, .footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.content {
-    padding: 20px;
-    text-align: center;
-}
-
-.content img {
-    max-width: 100%;
-    height: auto;
-}
+        <footer class="footer">
+            <!-- Footer content if present -->
+        </footer>
+    </div>
+</body>
+</html>
