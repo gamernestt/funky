@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Design Conversion</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <header class="header">
-            <!-- Add header content like logo or nav if present -->
-        </header>
-
-        <main class="content">
-            <img src="funky.png.webp" alt="Design Image">
-        </main>
-
-        <footer class="footer">
-            <!-- Footer content if present -->
-        </footer>
-    </div>
-</body>
-</html>
+<svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg">
+    <!-- Basic outline and paths approximation -->
+    <polyline points="100,100 150,150 200,100" stroke="black" fill="none" />
+    <polyline points="300,300 350,350 400,300" stroke="black" fill="none" />
+    <polyline points="500,500 550,550 600,500" stroke="black" fill="none" />
+    <!-- Add more paths and shapes here -->
+</svg>
